@@ -1,0 +1,154 @@
+header{
+
+    min-width: 100%;
+    
+    max-height:20%;
+    
+    background-color: lightblue;
+    
+    font-family: 'Times New Roman', Times, serif;
+    
+    color:green;
+    
+    text-align: center;
+    
+    margin-top:-20px;
+    
+    }
+
+
+
+body
+{
+ 
+  background-image: none;
+  background-color: skyblue;
+  background-size: cover;
+  background-color: rgb(191, 216, 191);
+        
+     
+}
+
+
+h1,h2
+{
+     color: green;
+    
+ 	 font-size: 28px;
+ 	 text-align: center; 
+ 	 margin-top: 20px;
+}
+
+ul {
+
+    list-style-type: none;
+  
+    margin: 0;
+  
+    padding: 0;
+  
+    overflow: hidden;
+  
+    background-color: rgb(0, 0, 0);
+  
+  }
+  
+  li {
+  
+    float: left;
+  
+  }
+  
+  li a {
+  
+    display: block;
+  
+    color: black;
+  
+    text-align: center;
+  
+    padding: 14px 16px;
+  
+    text-decoration: none;
+  
+  }
+  
+  li a:hover {
+  
+    color: red;
+  
+    font-size: 2em;
+  
+  }
+
+/* pictures with borders and floating*/
+img#village{
+    width: 400px;
+    border-style: dashed;	
+    border-color: red;
+    float: left;
+    
+}
+
+img#villagehome{
+  width: 300px;
+    border-style: ridge;
+    border-color: purple;
+    float:right;
+}
+
+img#villageschool{
+  width: 300px;
+    border-radius: 25px;
+    border: 2px solid #FF4500;
+    float:left;
+    caption-side:left;
+}
+
+img#villagepond{
+  width: 300px;
+    border-radius: 700px/200px;
+    border: 2px solid#FF4500;
+    float: right;
+}
+
+
+
+
+figcaption{
+    
+    float: left;
+    
+}
+
+figcaption1{
+    
+   float: right ;
+    
+}
+
+figcaption2{
+    
+    float: left;
+}
+
+figcaption3{
+    
+    float: right;
+}
+
+
+p {
+    font-family: "Arial, helvetica, sans-serif";
+    font-size: 1.00em;
+    width: 80%;
+    margin: 0 auto;
+  }
+  p::first-letter {
+    color: rgb(37, 0, 139);
+    float: left;
+    font-size: 7em;
+    margin: 0 .1em 0 0;
+    line-height: 0.75;
+  }
+  
